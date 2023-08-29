@@ -1,0 +1,31 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+ .wp-block-create-block-contentstable {
+	padding: 5px 15px;
+	background: #00000005;
+}
+
+ .wp-block-create-block-contentstable ul {
+	list-style: none;
+	padding-left: 10px;
+}
+
+.wp-block-create-block-contentstable ul li {
+	margin-top: 5px;
+}
+
+.wp-block-create-block-contentstable ul li a {
+	text-decoration: none;
+}
+
+.cot-level-1 {padding-left: 0px;}
+.cot-level-2 {padding-left: 3px;}
+.cot-level-3 {padding-left: 6px;}
+.cot-level-4 {padding-left: 9px;}
+.cot-level-5 {padding-left: 12px;}
+.cot-level-6 {padding-left: 15px;}

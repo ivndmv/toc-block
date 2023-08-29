@@ -1,0 +1,38 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "create-block/contentstable",
+  "version": "0.1.0",
+  "title": "Table of Contents",
+  "category": "text",
+  "icon": "flag",
+  "description": "A Block that renders your post's headings as a Table of Contents",
+  "keywords": [
+    "table of contents",
+    "content",
+    "contents",
+    "list",
+    "table",
+    "heading",
+    "headings"
+  ],
+  "attributes": {
+    "message": {
+      "type": "string",
+      "source": "text",
+      "selector": "div"
+    },
+    "content": {
+      "type": "string",
+      "source": "html",
+      "selector": "div"
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "textdomain": "contentstable",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
